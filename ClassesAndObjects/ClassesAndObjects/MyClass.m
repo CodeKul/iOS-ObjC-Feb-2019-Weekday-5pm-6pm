@@ -18,6 +18,7 @@
     self = [super init];
     if (self) {
         self->speed = 0.0;
+        self.model = @"";
     }
     return self;
 }
