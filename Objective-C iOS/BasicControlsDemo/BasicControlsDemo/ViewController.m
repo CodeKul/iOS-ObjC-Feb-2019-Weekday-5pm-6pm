@@ -26,4 +26,16 @@
     _nameLbl.text = _nameTxt.text;
 }
 
+- (IBAction)segmentedControlValueChanged:(UISegmentedControl *)sender {
+    if (sender.selectedSegmentIndex == 0) {
+        sender.tintColor = UIColor.redColor;
+    }
+    else if (sender.selectedSegmentIndex == 1) {
+        sender.tintColor = UIColor.greenColor;
+    }
+    else {
+        sender.tintColor = UIColor.blueColor;
+    }
+}
+
 @end
