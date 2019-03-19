@@ -12,6 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTxt;
 @property (weak, nonatomic) IBOutlet UILabel *nameLbl;
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
+
 
 @end
 
@@ -37,5 +39,21 @@
         sender.tintColor = UIColor.blueColor;
     }
 }
+
+- (IBAction)sliderValueChanged:(UISlider *)sender {
+    
+    _nameLbl.text = [NSString stringWithFormat:@"%f", sender.value];
+}
+
+- (IBAction)switchValueChanged:(UISwitch *)sender {
+    
+    if (sender.isOn == true) {
+        _mySlider.userInteractionEnabled = true;
+    }
+    else {
+        _mySlider.userInteractionEnabled = false;
+    }
+}
+
 
 @end
