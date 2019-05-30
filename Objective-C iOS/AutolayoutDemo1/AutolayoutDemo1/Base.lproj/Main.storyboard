@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zan-BD-ud6">
+                                <rect key="frame" x="16" y="20" width="53" height="30"/>
+                                <state key="normal" title="TopLeft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKg-kD-Fbj">
+                                <rect key="frame" x="242" y="20" width="62" height="30"/>
+                                <state key="normal" title="TopRight"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-fz-WRK">
+                                <rect key="frame" x="16" y="518" width="77" height="30"/>
+                                <state key="normal" title="BottomLeft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2P-X8-e6U">
+                                <rect key="frame" x="218" y="518" width="86" height="30"/>
+                                <state key="normal" title="BottomRight"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33F-xi-7Ez">
+                                <rect key="frame" x="136.5" y="269" width="47" height="30"/>
+                                <state key="normal" title="Center"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sb-mc-ccq">
+                                <rect key="frame" x="145" y="20" width="30" height="30"/>
+                                <state key="normal" title="Top"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pr6-Tt-62c">
+                                <rect key="frame" x="268" y="269" width="36" height="30"/>
+                                <state key="normal" title="Right"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyT-ZK-X49">
+                                <rect key="frame" x="134.5" y="518" width="51" height="30"/>
+                                <state key="normal" title="Bottom"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NV1-B3-WZ3">
+                                <rect key="frame" x="16" y="269" width="30" height="30"/>
+                                <state key="normal" title="Left"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ4-6y-N38">
+                                <rect key="frame" x="116" y="307" width="88" height="30"/>
+                                <state key="normal" title="BelowCenter"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eKg-kD-Fbj" secondAttribute="trailing" constant="16" id="2XJ-Hx-Ovh"/>
+                            <constraint firstItem="33F-xi-7Ez" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5ZQ-Gf-C2e"/>
+                            <constraint firstItem="9sb-mc-ccq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7HL-Yg-Ppb"/>
+                            <constraint firstItem="eKg-kD-Fbj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8A0-pa-Bdx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q2P-X8-e6U" secondAttribute="bottom" constant="20" id="Dot-kq-VMN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zyT-ZK-X49" secondAttribute="bottom" constant="20" id="GDG-qh-ZIr"/>
+                            <constraint firstItem="zyT-ZK-X49" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PkL-IL-3r8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pr6-Tt-62c" secondAttribute="trailing" constant="16" id="TKJ-0H-Heq"/>
+                            <constraint firstItem="NV1-B3-WZ3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X8R-J2-TPC"/>
+                            <constraint firstItem="pr6-Tt-62c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XZV-ef-p2d"/>
+                            <constraint firstItem="33F-xi-7Ez" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFa-tT-4xz"/>
+                            <constraint firstItem="aZ4-6y-N38" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="coi-6T-1ly"/>
+                            <constraint firstItem="Zan-BD-ud6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ifa-B0-S8K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q2P-X8-e6U" secondAttribute="trailing" constant="16" id="ipb-xu-CWF"/>
+                            <constraint firstItem="aZ4-6y-N38" firstAttribute="top" secondItem="33F-xi-7Ez" secondAttribute="bottom" constant="8" id="lWh-wU-56q"/>
+                            <constraint firstItem="NV1-B3-WZ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mCY-WQ-4xZ"/>
+                            <constraint firstItem="Etd-fz-WRK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mvJ-oM-4VY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Etd-fz-WRK" secondAttribute="bottom" constant="20" id="sLD-bl-2Ej"/>
+                            <constraint firstItem="Zan-BD-ud6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tdl-Fu-PeF"/>
+                            <constraint firstItem="9sb-mc-ccq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wS7-Lt-FCt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="109.85915492957747"/>
+        </scene>
+    </scenes>
+</document>
